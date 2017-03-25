@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170325094749) do
+ActiveRecord::Schema.define(version: 20170325103437) do
 
   create_table "projects", force: true do |t|
     t.datetime "created_at"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20170325094749) do
     t.integer  "project_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.datetime "completed_at"
   end
 
   add_index "tasks", ["project_id"], name: "index_tasks_on_project_id"
