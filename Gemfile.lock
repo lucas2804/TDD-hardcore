@@ -215,9 +215,6 @@ GEM
     sdoc (0.4.2)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    simple_form (3.4.0)
-      actionpack (> 4, < 5.1)
-      activemodel (> 4, < 5.1)
     simple_oauth (0.3.1)
     slop (3.6.0)
     spring (1.7.2)
@@ -290,7 +287,6 @@ DEPENDENCIES
   rspec-rails-mocha
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
-  simple_form
   spring
   spring-commands-rspec
   sqlite3
